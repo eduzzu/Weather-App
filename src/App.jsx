@@ -1,11 +1,11 @@
 import './App.css'
-import Search from './components/Search'
+import WeatherNow from './components/WeatherNow'
 
 function App() {
 
   return (
     <>
-    <Search />
+    <WeatherNow />
     </>
   )
 }
