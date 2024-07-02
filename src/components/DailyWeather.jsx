@@ -1,15 +1,14 @@
 import { Box, Typography } from "@mui/material";
 
 const DailyWeather = ({ forecast }) => {
-  console.log(forecast)
   return (
     <Box
       sx={{
-        width: "85%",
+        width: "80%",
         display: "flex",
         justifyContent: "space-between",
         color: "#ffffff",
-        mt: "15%"
+        mt: "2%",
       }}
     >
       {forecast.map((day, index) => (
